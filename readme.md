@@ -2,7 +2,7 @@
 
 ### Description
 
-	A very simple scraper to take jobs posted in [https://www.indeed.com](https://www.indeed.com) for future analysis using R or python.
+A very simple scraper to take jobs posted in [https://www.indeed.com](https://www.indeed.com) for future analysis using R or python.
 
 ### Requeriments
 
