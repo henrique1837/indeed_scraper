@@ -35,4 +35,4 @@ pip install goose3
 
 ### Next steps
 
-	This project is under construction, next step is to  making possible to select the region of jobs and data analysis of result. In this example jobs are worldwide.
+This project is under construction, next step is to  making possible to select the region of jobs and data analysis of result. In this example jobs are worldwide.
