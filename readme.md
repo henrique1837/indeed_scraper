@@ -8,25 +8,25 @@
 
 **Tested with Ubuntu 16.04**
 
-*Python3
+- Python3
 
 ```
 sudo apt-get install python3
 ```
 
-*Pip (to install python packages)
+- Pip (to install python packages)
 
 ```
 sudo apt-get install python3-pip
 ```
 
-*(BeautifulSoup)[https://www.crummy.com/software/BeautifulSoup/bs4/doc]
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
 
 ```
 pip install beautifulsoup4
 ```
 
-*(Goose3)[https://github.com/goose3/goose3]
+- [Goose3](https://github.com/goose3/goose3)
 
 ```
 pip install goose3
