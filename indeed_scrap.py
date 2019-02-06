@@ -103,7 +103,7 @@ def extract_description(links):
 
 #### Algorithm ####
 ## Set the directory ##
-os.chdir(str(Path.home())+"/Documentos/scripts/indeed_scrap/")
+os.chdir(str(Path.home())+"/Documentos/scripts/indeed_scraper/")
 ## First make the scrap ##
 df_final = indeed_scraper(query="ethereum")
 ## Extract full description of jobs ##
