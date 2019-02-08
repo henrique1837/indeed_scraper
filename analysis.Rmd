@@ -7,6 +7,16 @@ output: word_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## About Document
+
+  An example of treating and ploting data from indeed
+
+## Treating data ##
+
+```{r treat,echo=TRUE}
 library(plyr)
 library(stringr)
 library(ggplot2)
@@ -33,7 +43,7 @@ for(i in 2:length(files)){
                                                 pattern = "[[:digit:]]+"))
   df$date[which(is.na(df$date))] <- file_date
   df_t <- rbind(df_t,df[which(!(df$link %in% df_t$link)),])
-  message("Files ",i," - ",length(files))
+  #message("Files ",i," - ",length(files))
 }
 
 df_t$count <- 1
@@ -57,10 +67,6 @@ df_places <- ddply(.data = df_t,
                    .fun = summarize,
                    totalJobs=sum(count))
 ```
-
-## About Document
-
-  An example of treating and ploting data from indeed
 
 ## Data Information
 
@@ -101,34 +107,34 @@ geom_smooth(formula = y~x,
             method = "loess")
 ```
 
-### Total Ethereum Jobs posted by top 20 company
+### Total Ethereum Jobs posted by top 10 company
 
 ```{r plot2, echo=FALSE}
-## Top 20 companies ##
+## Top 10 companies ##
 ggplot(data = head(df_companies[order(df_companies$totalJobs,
-                                      decreasing = TRUE),],20),
+                                      decreasing = TRUE),],10),
        mapping = aes(x=company,y=totalJobs)) + 
   geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45, hjust = 0))
+  theme(axis.text.x=element_text(angle = -45,hjust = 0))
 ```
 
-## Total Ethereum Jobs posted in top 20 localizations
+## Total Ethereum Jobs posted in top 10 localizations
 
 ```{r plot3, echo=FALSE}
-## Top 20 places ##
+## Top 10 places ##
 ggplot(data = head(df_places[order(df_places$totalJobs,
-                                   decreasing = TRUE),],20),
+                                   decreasing = TRUE),],10),
        mapping = aes(x=location,y=totalJobs)) + 
   geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45, hjust = 0))
+  theme(axis.text.x=element_text(angle = -45,hjust = 0))
 ```
 
-## Total Ethereum Jobs posted by top 20 companies per date
+## Total Ethereum Jobs posted by top 10 companies per date
 
 ```{r plot4, echo=FALSE}
-## Top 20 companies jobs by date ##
+## Top 10 companies jobs by date ##
 ggplot(data = head(df_companies_date[order(df_companies_date$totalJobs,
-                                           decreasing = TRUE),],20),
+                                           decreasing = TRUE),],10),
        mapping = aes(x=date,y=company)) + 
   geom_tile(aes(fill = totalJobs)) +
   scale_fill_gradient(low = "lightblue",high = "steelblue")

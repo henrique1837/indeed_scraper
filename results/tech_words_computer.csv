@@ -1,0 +1,1358 @@
+,word
+0,Active-Matrix
+1,ActiveX
+2,AGP
+3,AIFF
+4,ANSI
+5,Apple
+6,Applet
+7,Archie
+8,ASCII
+9,ASP
+10,Affiliate
+11,Autoresponder
+12,ATM
+13,ATA
+14,AIX
+15,Adware
+16,Alert Box
+17,Analog
+18,Application
+19,API
+20,ASP.NET
+21,ADSL
+22,Algorithm
+23,ADF
+24,Ad Hoc Network
+25,Array
+26,Access
+27,ACL
+28,Abend
+29,ARP
+30,ADC
+31,Add-on
+32,Avatar
+33,Access Point
+34,Android
+35,Archive
+36,Address Bar
+37,Antivirus
+38,Artificial Intelligence
+39,Apache
+40,ALU
+41,Ajax
+42,Adapter
+43,Active Cell
+44,Architecture
+45,App
+46,Alpha Software
+47,Animated GIF
+48,APU
+49,AUP
+50,Assembly Language
+51,Assembler
+52,Assistive Technology
+53,ATX
+54,Adaptive Content
+55,Attachment
+56,Augmented Reality
+57,Accessibility
+58,Active Directory
+59,APFS
+60,Aspect Ratio
+61,Autocomplete
+62,Autocorrect
+63,Activation Key
+64,Authentication
+65,ANR
+66,AVR
+67,Archive Bit
+68,Bandwidth
+69,Baud
+70,Beta Software
+71,Binary
+72,Bit
+73,Bitmap
+74,Bookmark
+75,Bot
+76,bps
+77,Byte
+78,Boolean
+79,Broadband
+80,BIOS
+81,Burn
+82,Bluetooth
+83,Buffer
+84,Blog
+85,Bridge
+86,Blu-ray
+87,Base Station
+88,Boot
+89,Boot Disk
+90,Backbone
+91,Bus
+92,Banner Ad
+93,Backside Bus
+94,BMP
+95,BASIC
+96,Bespoke
+97,Blob
+98,Bitrate
+99,Bounce
+100,Batch File
+101,Batch Process
+102,Bcc
+103,BitTorrent
+104,Backup
+105,Boot Sequence
+106,Bug
+107,Boot Sector
+108,Baseband
+109,Botnet
+110,Blacklist
+111,Backlink
+112,Barebones
+113,Biometrics
+114,Bing
+115,Bezel
+116,BarCraft
+117,Bare Metal
+118,Bare Metal Restore
+119,Brouter
+120,BSOD
+121,Bloatware
+122,Bash
+123,Big Data
+124,Bitcoin
+125,Bézier Curve
+126,Breadcrumbs
+127,Brownfield
+128,Bootstrap
+129,Bytecode
+130,Blockchain
+131,Cable Modem
+132,Cache
+133,CAD
+134,CGI
+135,Cookie
+136,CPU
+137,C/C++
+138,CISC
+139,Chipset
+140,CRM
+141,Cyberspace
+142,CMOS
+143,Codec
+144,Configuration
+145,Computer
+146,Cursor
+147,Client
+148,Compact Flash
+149,Crossplatform
+150,Controller Card
+151,Clone
+152,Clean Room
+153,CD-R
+154,CD-RW
+155,CD
+156,CD-ROM
+157,Copy
+158,Clock Speed
+159,Camera RAW
+160,CPA
+161,CPC
+162,CPL
+163,CPM
+164,CTR
+165,Character
+166,CRT
+167,CMYK
+168,Cluster
+169,Cron
+170,CSS
+171,Computer Ethics
+172,Clip Art
+173,Clipboard
+174,CTP
+175,CDMA
+176,Certificate
+177,CCD
+178,Cybercrime
+179,Component
+180,Cc
+181,CPS
+182,Crop
+183,Caps Lock
+184,Control Panel
+185,Commercial Software
+186,Compile
+187,Compiler
+188,Command Prompt
+189,Chip
+190,Card Reader
+191,Contextual Menu
+192,Cross-Browser
+193,Cut
+194,Checksum
+195,Cloud Computing
+196,Captcha
+197,CLOB
+198,Copyright
+199,Cyberbullying
+200,Cell
+201,Cybersquatter
+202,Clock Cycle
+203,Character Encoding
+204,CDFS
+205,Compression
+206,Class
+207,Column
+208,Clean Install
+209,Console
+210,Constant
+211,Cloud
+212,Copyright Infringement
+213,CIFS
+214,Cold Boot
+215,CamelCase
+216,CMS
+217,CDN
+218,Coaxial Cable
+219,C#
+220,Crash
+221,Computer Science
+222,Command Line Interface
+223,Chromebook
+224,Cryptography
+225,CUDA
+226,Circuit
+227,Client-Server Model
+228,Cell Reference
+229,Container
+230,Cable Management
+231,CAN
+232,Collision
+233,Default
+234,Degauss
+235,DHCP
+236,DNS
+237,Domain Name
+238,Dongle
+239,Dot Pitch
+240,Download
+241,DSL
+242,Driver
+243,DVD
+244,Database
+245,DIMM
+246,DLL
+247,Defragment
+248,DDR
+249,DVI
+250,DVD-RAM
+251,DVD-R
+252,DVD+R
+253,DVD-RW
+254,DVD+RW
+255,Dialog Box
+256,Digital
+257,DV
+258,Debug
+259,Debugger
+260,DRM
+261,Delete
+262,Desktop
+263,DTD
+264,Dashboard
+265,Drag
+266,Double Click
+267,Digitize
+268,DirectX
+269,Directory
+270,DVR
+271,Direct3D
+272,DBMS
+273,DDR2
+274,DNS Record
+275,Desktop Publishing
+276,Daemon
+277,DSLAM
+278,DMA
+279,Data
+280,Data Transfer Rate
+281,Dual-Core
+282,Del.icio.us
+283,Domain
+284,DPI
+285,DRAM
+286,DOS
+287,Data Type
+288,Disk Image
+289,Domain Suffix
+290,DAC
+291,Dot Matrix
+292,DDL
+293,Dial-up
+294,Digital Signature
+295,Dynamic Website
+296,Data Management
+297,Direct Digital Marketing
+298,Digital Camera
+299,Dock
+300,Drop Down Menu
+301,Dithering
+302,Disk Drive
+303,Default Program
+304,Deprecated
+305,Desktop Computer
+306,Denial of Service
+307,Drag and Drop
+308,Document
+309,DCIM
+310,DDR3
+311,Donationware
+312,DAW
+313,DLC
+314,DFS
+315,Dual Boot
+316,Docking Station
+317,Dvorak Keyboard
+318,Digital Footprint
+319,Drive
+320,DMZ
+321,Developer
+322,Denary
+323,DAS
+324,Diode
+325,Design Pattern
+326,Drive-By Download
+327,Datagram
+328,DKIM
+329,Dual Processor
+330,Data Mining
+331,Data Science
+332,DDR4
+333,Desk Checking
+334,Downtime
+335,Email
+336,Emoticon
+337,Encryption
+338,Ethernet
+339,E-commerce
+340,Escape Key
+341,Edutainment
+342,Exabyte
+343,End User
+344,EUP
+345,Exbibyte
+346,EPS
+347,EDI
+348,Excel
+349,External Hard Drive
+350,E-mail Bankruptcy
+351,Emulation
+352,Extranet
+353,Expansion Card
+354,ECC
+355,EIDE
+356,Export
+357,Encoding
+358,Executable File
+359,Ergonomics
+360,E-reader
+361,EXIF
+362,eSports
+363,eBook
+364,Enterprise
+365,Extensible
+366,eSATA
+367,Email Bomb
+368,E-learning
+369,Enum
+370,Emoji
+371,Email Address
+372,Exception
+373,El Capitan
+374,eGPU
+375,FAQ
+376,Fiber Optic Cable
+377,Firewall
+378,FPU
+379,Freeware
+380,FTP
+381,FAT32
+382,Flash
+383,Flash Memory
+384,Firewire
+385,Format
+386,Frame
+387,File
+388,Folder
+389,FSB
+390,Font
+391,File Extension
+392,File System
+393,Firmware
+394,Frozen
+395,Flat File
+396,Fios
+397,Floppy Disk
+398,Floating Point
+399,Flaming
+400,Flatbed
+401,FIFO
+402,Filename
+403,Facebook
+404,Flowchart
+405,Flash Drive
+406,FLOPS
+407,Friend
+408,Finder
+409,Formula
+410,Favorites
+411,Function
+412,Friendly URL
+413,File Format
+414,File Type
+415,File Association
+416,File Compression
+417,File Server
+418,FDDI
+419,Frequency
+420,Full-Duplex
+421,Footer
+422,Framework
+423,Font Case
+424,Fragmentation
+425,Favicon
+426,Field
+427,FILO
+428,FQDN
+429,Flexible
+430,FPS
+431,Fluid Layout
+432,FPGA
+433,Function Key
+434,Filter
+435,Flag
+436,Gateway
+437,GIF
+438,Gigabyte
+439,GIGO
+440,GPS
+441,GUI
+442,GPU
+443,GIS
+444,Gopher
+445,Gibibyte
+446,Google
+447,Gnutella
+448,Gigahertz
+449,GUID
+450,Gigaflops
+451,Graphics
+452,Gamma Correction
+453,Golden Master
+454,GNU
+455,Goodput
+456,Grayscale
+457,Gbps
+458,Graymail
+459,Google Drive
+460,Grep
+461,Gigabit
+462,GPIO
+463,Grid Computing
+464,GPGPU
+465,Greenfield
+466,Garbage Collection
+467,GDPR
+468,Handle
+469,Hit
+470,Home Page
+471,Host
+472,HTML
+473,HTTP
+474,Hub
+475,Hypertext
+476,Hacker
+477,Hard Drive
+478,Hyperlink
+479,Hyper-Threading
+480,HDV
+481,Hexadecimal
+482,HFS
+483,Hard Disk
+484,Hover
+485,HDTV
+486,Halftone
+487,Horizontal Market Software
+488,Heuristic
+489,Heat Sink
+490,HSF
+491,Hard Token
+492,Hardware
+493,HDMI
+494,Hard Copy
+495,Hypermedia
+496,HTTPS
+497,Hibernate
+498,Hertz
+499,Hashtag
+500,Half-Duplex
+501,Hot Swappable
+502,Heap
+503,Header
+504,HDD
+505,Honeypot
+506,Heartbleed
+507,HTML5
+508,Handshake
+509,Hotfix
+510,Headphones
+511,Hostname
+512,High-Level Language
+513,HDR
+514,High Sierra
+515,Hash
+516,Hypervisor
+517,IDE
+518,IEEE
+519,Intranet
+520,IP
+521,IP Address
+522,IPX
+523,IRC
+524,ISDN
+525,ISP
+526,IRQ
+527,Icon
+528,IM
+529,IT
+530,I/O
+531,IMAP
+532,Illegal Operation
+533,iPod
+534,iTunes
+535,Impression
+536,IVR
+537,Infotainment
+538,Install
+539,Installer
+540,ICS
+541,ICF
+542,Integrated Circuit
+543,Inkjet
+544,InterNIC
+545,ISA
+546,ISO
+547,Interlaced
+548,Integer
+549,I/O Address
+550,IGP
+551,ICANN
+552,ICMP
+553,IPv4
+554,IPv6
+555,Input
+556,IBM Compatible
+557,Inbox
+558,Intellectual Property
+559,Index
+560,Iteration
+561,Input Device
+562,iSCSI
+563,Interface
+564,ICQ
+565,ICT
+566,Internal Hard Drive
+567,Impact Printer
+568,Import
+569,Interpreter
+570,Insertion Point
+571,Interactive Video
+572,iPhone
+573,iPad
+574,iOS
+575,IIS
+576,Instagram
+577,IDS
+578,IPS
+579,Integrated
+580,Internet of Things
+581,Iframe
+582,iCloud
+583,Internet
+584,ISR
+585,ITIL
+586,IOPS
+587,Interrupt
+588,Irrational Number
+589,IMEI
+590,Java
+591,JavaScript
+592,JPEG
+593,Jumper
+594,JSP
+595,JRE
+596,Joystick
+597,JSON
+598,JFS
+599,JSF
+600,jQuery
+601,JVM
+602,JDBC
+603,Kbps
+604,Kernel
+605,Kilobyte
+606,Keystroke
+607,Keyboard
+608,Kibibyte
+609,KVM Switch
+610,Keyboard Shortcut
+611,Kerning
+612,Keywords
+613,Keylogger
+614,KDE
+615,KOffice
+616,Kilohertz
+617,Kindle
+618,Kilobit
+619,LAN
+620,Latency
+621,LCD
+622,Link
+623,Linux
+624,LISTSERV
+625,Login
+626,LDAP
+627,Localhost
+628,Leet
+629,Leaf
+630,Logic Gate
+631,Leaderboard
+632,LPI
+633,Lossy
+634,Lossless
+635,Laser Printer
+636,LUN
+637,Load Balancing
+638,Laptop
+639,LIFO
+640,LED
+641,LinkedIn
+642,Log File
+643,Log On
+644,Left-Click
+645,Logic Error
+646,Leopard
+647,Lion
+648,LTE
+649,LAMP
+650,Lag
+651,Lightning
+652,Lead
+653,Long
+654,Loop
+655,Lua
+656,Leading
+657,LFN
+658,Lazy Loading
+659,Megabyte
+660,Megahertz
+661,MIDI
+662,Mirror
+663,Modem
+664,MP3
+665,MPEG
+666,Meta Tag
+667,Multimedia
+668,Mainframe
+669,MIPS
+670,Motherboard
+671,Macintosh
+672,Mac OS
+673,Malware
+674,Multiplatform
+675,Media
+676,MCA
+677,Mini DV
+678,MySQL
+679,Mouse
+680,Mbps
+681,Menu Bar
+682,MAC Address
+683,Memory
+684,Mebibyte
+685,Meta Search Engine
+686,Metadata
+687,Metafile
+688,Moodle
+689,Memory Stick
+690,Mnemonic
+691,Mirrored Volume
+692,Monitor
+693,MySpace
+694,MANET
+695,MTU
+696,Macro
+697,Megapixel
+698,Mashup
+699,Memory Module
+700,Memory Leak
+701,Mount
+702,Multitasking
+703,Multithreading
+704,Multiprocessing
+705,Maximize
+706,Minimize
+707,Memory Bank
+708,Modifier Key
+709,Multi-Core
+710,Motion Tween
+711,Middleware
+712,Monochrome
+713,Media Compression
+714,Method
+715,Multicasting
+716,Markup Language
+717,MMS
+718,Mouse Pad
+719,Meme
+720,MBR
+721,Margin
+722,Mountain Lion
+723,Minisite
+724,Minicomputer
+725,Microcomputer
+726,MAMP
+727,Microphone
+728,Matrix
+729,Megabit
+730,Mavericks
+731,Microblogging
+732,MDI
+733,Molex Connector
+734,MIS
+735,Micron
+736,Microkernel
+737,Media Queries
+738,Mobile
+739,Mail Server
+740,MHL
+741,MVC
+742,Microsoft
+743,MAN
+744,Mojave
+745,Machine Language
+746,Minification
+747,Netiquette
+748,Network
+749,Newbie
+750,Newsgroup
+751,NIC
+752,NNTP
+753,NTFS
+754,NAT
+755,Nybble
+756,Null
+757,Null Character
+758,Node
+759,NetBIOS
+760,Native File
+761,NOC
+762,Name Server
+763,Network Topology
+764,Northbridge
+765,NAS
+766,Netmask
+767,Num Lock
+768,Non-Impact Printer
+769,NVRAM
+770,Newline
+771,Navigation Bar
+772,Nanometer
+773,NUI
+774,Namespace
+775,NoSQL
+776,NSP
+777,NINO
+778,NOS
+779,NMS
+780,NFC
+781,Natural Number
+782,NaN
+783,N-Key Rollover
+784,OCR
+785,OEM
+786,OpenGL
+787,Operating System
+788,Optical Media
+789,Online
+790,Offline
+791,OLAP
+792,Optical Drive
+793,ODBC
+794,OLE
+795,OS X
+796,OSPF
+797,Open Firmware
+798,Output
+799,OASIS
+800,Outbox
+801,Overclocking
+802,OOP
+803,Output Device
+804,Open Source
+805,OSD
+806,Optical Carrier
+807,OSI Model
+808,Overwrite
+809,Office
+810,Opacity
+811,OLED
+812,OpenCL
+813,OTT
+814,OTA
+815,Processor
+816,Packet
+817,Parallel Port
+818,Partition
+819,PCI
+820,PCMCIA
+821,PDF
+822,Ping
+823,PNG
+824,Port
+825,Portal
+826,PPP
+827,Protocol
+828,PHP
+829,PDA
+830,Perl
+831,PPGA
+832,Proxy Server
+833,PIM
+834,Plug-in
+835,Pixel
+836,Parse
+837,Platform
+838,Pipeline
+839,Paste
+840,Power User
+841,PPC
+842,Phishing
+843,Petabyte
+844,Peripheral
+845,Payload
+846,PRAM
+847,Plain Text
+848,P2P
+849,Pharming
+850,Pebibyte
+851,Process
+852,Password
+853,PostScript
+854,PCB
+855,Progressive Scan
+856,POP3
+857,Permalink
+858,Prebinding
+859,PCI-X
+860,PCI Express
+861,PPTP
+862,Plug and Play
+863,Power Cycle
+864,PPI
+865,PC
+866,PPL
+867,Page View
+868,Podcast
+869,PMU
+870,PPM
+871,Program
+872,PowerPoint
+873,Piconet
+874,PS/2
+875,Piracy
+876,Push
+877,Pop-Up
+878,Primary Key
+879,Pseudocode
+880,Printer
+881,Power Supply
+882,Path
+883,Page Orientation
+884,Peopleware
+885,PROM
+886,Petaflops
+887,Phreaking
+888,Python
+889,PPPoE
+890,Page Layout
+891,Personal URL
+892,Parameter
+893,Plagiarism
+894,Passive-Matrix
+895,Parity Bit
+896,Parity
+897,PUP
+898,PUM
+899,Programming Language
+900,Pretest
+901,Pinterest
+902,Public Domain
+903,POST
+904,Primary Memory
+905,Print Server
+906,Processor Core
+907,PON
+908,PPS
+909,Page Fault
+910,Plotter
+911,Proprietary Software
+912,Parked Domain
+913,Passphrase
+914,Passcode
+915,Portable Software
+916,PDU
+917,PoE
+918,Processing
+919,Projector
+920,PAN
+921,QuickTime
+922,QWERTY
+923,Queue
+924,QBE
+925,Quad-Core
+926,Query
+927,QR Code
+928,RAM
+929,Registry
+930,Resolution
+931,RGB
+932,RISC
+933,ROM
+934,Router
+935,RTF
+936,Root
+937,RDRAM
+938,Runtime
+939,RAID
+940,Readme
+941,RSS
+942,Remote User
+943,Remote Access
+944,Raw File
+945,Raw Data
+946,RUP
+947,Raster Graphic
+948,Rich Text
+949,Right Click
+950,Ruby
+951,Recursion
+952,Recursive Function
+953,Ripcording
+954,Refresh Rate
+955,RPC
+956,RDF
+957,RTE
+958,RADCAB
+959,Real-Time
+960,RPM
+961,Refresh
+962,Remote Desktop
+963,Rosetta
+964,Recycle Bin
+965,RFID
+966,Reimage
+967,Real Number
+968,Rootkit
+969,Restore
+970,Ripping
+971,Row
+972,RJ45
+973,Reciprocal Link
+974,Repository
+975,Repeater
+976,Redundancy
+977,Retina Display
+978,Ribbon
+979,Runtime Error
+980,Record
+981,Read-only
+982,Regular Expression
+983,Responsive Web Design
+984,Register
+985,Root Directory
+986,Rendering
+987,Relational Database
+988,Ransomware
+989,Resistor
+990,RDBMS
+991,RIP
+992,Rational Number
+993,SCSI
+994,SDRAM
+995,Search Engine
+996,Server
+997,Shareware
+998,Slashdot
+999,Spam
+1000,Streaming
+1001,System Unit
+1002,SQL
+1003,SIMM
+1004,Systray
+1005,SMART
+1006,Skin
+1007,Stack
+1008,SMTP
+1009,Spyware
+1010,Serial Port
+1011,sRGB
+1012,Safe Mode
+1013,SD
+1014,SEO
+1015,Socket
+1016,SATA
+1017,System Requirements
+1018,SMS
+1019,Switch
+1020,System Software
+1021,String
+1022,SOAP
+1023,Sector
+1024,Shell
+1025,Skyscraper
+1026,Spider
+1027,Standalone
+1028,Script
+1029,System Hardening
+1030,SSL
+1031,Solid State
+1032,System Resources
+1033,SDSL
+1034,SSID
+1035,Spreadsheet
+1036,SLI
+1037,SNMP
+1038,Source Code
+1039,Superscalar
+1040,SMB
+1041,Samba
+1042,SOA
+1043,Smartwatch
+1044,SO-DIMM
+1045,Site Map
+1046,SSH
+1047,Soft Token
+1048,Sample
+1049,Sampling
+1050,Screenshot
+1051,Snapshot
+1052,Storage Device
+1053,Software
+1054,Surge Protector
+1055,Service Pack
+1056,SRAM
+1057,Scrolling
+1058,Scroll Bar
+1059,Scroll Wheel
+1060,Syntax
+1061,Standby
+1062,Subnet Mask
+1063,System Analyst
+1064,Spoofing
+1065,SKU
+1066,Soft Copy
+1067,Social Networking
+1068,Status Bar
+1069,SAN
+1070,Southbridge
+1071,Sound Card
+1072,Spool
+1073,Spooling
+1074,Scanner
+1075,Snippet
+1076,SERP
+1077,Shift Key
+1078,Sync
+1079,Static Website
+1080,Storage Capacity
+1081,Subdirectory
+1082,Supercomputer
+1083,Secondary Storage
+1084,Speakers
+1085,SDK
+1086,Smartphone
+1087,SMM
+1088,SSD
+1089,Scalable
+1090,SaaS
+1091,Session
+1092,Start Menu
+1093,Sidebar
+1094,Scraping
+1095,Sprite
+1096,Simplex
+1097,Syntax Error
+1098,Smishing
+1099,SIP
+1100,Swipe
+1101,Scareware
+1102,SLA
+1103,Servlet
+1104,Snow Leopard
+1105,Surface
+1106,Secondary Memory
+1107,SYN Flood
+1108,Schema
+1109,Social Media
+1110,Symbolic Link
+1111,Speech Recognition
+1112,Swap File
+1113,Silent Install
+1114,Smart Home
+1115,Spellcheck
+1116,SDLC
+1117,System Preferences
+1118,Subscript
+1119,Superscript
+1120,SIM Card
+1121,Sample Rate
+1122,SoC
+1123,Struct
+1124,Set
+1125,Social Engineering
+1126,Snapchat
+1127,SPX
+1128,Sass
+1129,Sandboxing
+1130,SPF
+1131,Swift
+1132,Sierra
+1133,Stylus
+1134,Seed
+1135,Screen Burn
+1136,Serial Number
+1137,SRM
+1138,Screen Tearing
+1139,T1
+1140,T3
+1141,Tape Drive
+1142,TCP/IP
+1143,Telnet
+1144,Terabyte
+1145,TIFF
+1146,Token
+1147,Trinitron
+1148,Text Editor
+1149,Template
+1150,TWAIN
+1151,TTL
+1152,TFT
+1153,Tag
+1154,Thread
+1155,Trojan Horse
+1156,Typeface
+1157,Tiger
+1158,Thin Client
+1159,Toolbar
+1160,Tweak
+1161,Task Bar
+1162,Thyristor
+1163,Thick Client
+1164,Tebibyte
+1165,Toslink
+1166,Tutorial
+1167,Truncate
+1168,Throughput
+1169,Tooltip
+1170,Traceroute
+1171,Terminal
+1172,Tunneling
+1173,Torrent
+1174,Title Bar
+1175,Target Disk Mode
+1176,Twitter
+1177,Tweet
+1178,Trackback
+1179,Telecommunications
+1180,Third Party
+1181,Trash
+1182,Troubleshooting
+1183,Trackball
+1184,Technology Services
+1185,Teraflops
+1186,Toggle Key
+1187,Thumbnail
+1188,Terahertz
+1189,Text Alignment
+1190,Tablet
+1191,Touchscreen
+1192,Troll
+1193,Table
+1194,Thermistor
+1195,Thunderbolt
+1196,Transistor
+1197,Text Box
+1198,TFTP
+1199,TRIM
+1200,Tumblr
+1201,Teleconference
+1202,Tab
+1203,Typecasting
+1204,TCP
+1205,Touchpad
+1206,Telehealth
+1207,Tracking
+1208,UDP
+1209,Ultra DMA
+1210,Unix
+1211,Upload
+1212,URL
+1213,USB
+1214,UML
+1215,UNC
+1216,Utility
+1217,U
+1218,Username
+1219,UPnP
+1220,UPS
+1221,UDDI
+1222,URI
+1223,Unmount
+1224,User Interface
+1225,Undo
+1226,Unfriend
+1227,UGC
+1228,Unicode
+1229,UTF
+1230,UAT
+1231,User-Friendly
+1232,USB-C
+1233,UEFI
+1234,UICC
+1235,Usenet
+1236,UWP
+1237,User Space
+1238,UPC
+1239,Ultrabook
+1240,Uptime
+1241,Veronica
+1242,VPN
+1243,VRAM
+1244,VRML
+1245,VLB
+1246,VGA
+1247,Virus
+1248,VFAT
+1249,VCI
+1250,VPI
+1251,Virtual Memory
+1252,Virtual Reality
+1253,Vector
+1254,Vector Graphic
+1255,Volume
+1256,VoIP
+1257,Vertical Market Software
+1258,Video Card
+1259,Visual Basic
+1260,VLE
+1261,VDU
+1262,Virtualization
+1263,Vaporware
+1264,Viral
+1265,Version Control
+1266,Vlog
+1267,Variable
+1268,VDSL
+1269,Virus Definition
+1270,VLAN
+1271,VPS
+1272,Virtual Machine
+1273,Web Browser
+1274,WAIS
+1275,WAN
+1276,Web Ring
+1277,Website
+1278,Webmaster
+1279,WWW
+1280,Wizard
+1281,WHOIS
+1282,Win32
+1283,Web Page
+1284,White Paper
+1285,Wi-Fi
+1286,Windows
+1287,Wiki
+1288,Winsock
+1289,Worm
+1290,Web Host
+1291,Windows XP
+1292,Waveform
+1293,WEP
+1294,WPA
+1295,Wireless
+1296,Word Wrap
+1297,Widget
+1298,Word Processor
+1299,Workstation
+1300,Windows Vista
+1301,Webmail
+1302,Window
+1303,WordArt
+1304,Web 2.0
+1305,Webcam
+1306,WYSIWYG
+1307,WiMAX
+1308,Windows 7
+1309,W3C
+1310,Wildcard
+1311,White Balance
+1312,Whitelist
+1313,Web Forum
+1314,Web Server
+1315,Web Publishing
+1316,Wavelength
+1317,Word
+1318,WINS
+1319,Windows 8
+1320,Windows RT
+1321,Wired
+1322,Web Design
+1323,Web Development
+1324,Warm Boot
+1325,WAVE
+1326,WDDM
+1327,WAMP
+1328,WordPress
+1329,Web Application
+1330,WIMP
+1331,Windows 10
+1332,Wireframe
+1333,WLAN
+1334,Wardriving
+1335,Webhook
+1336,Web Service
+1337,Web Beacon
+1338,Whole Number
+1339,XML
+1340,XHTML
+1341,X86
+1342,XSLT
+1343,XMP
+1344,XAML
+1345,Y2K
+1346,Yottabyte
+1347,Yobibyte
+1348,Yahoo!
+1349,YouTube
+1350,Yosemite
+1351,Zip
+1352,ZIF
+1353,Zettabyte
+1354,Zebibyte
+1355,Zone File
+1356,Zero Day Exploit

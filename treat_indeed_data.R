@@ -58,22 +58,22 @@ geom_point() +
 geom_smooth(formula = y~x,
             method = "loess")
 
-## Top 20 companies ##
+## Top 10 companies ##
 ggplot(data = head(df_companies[order(df_companies$totalJobs,
-                                      decreasing = TRUE),],20),
+                                      decreasing = TRUE),],10),
        mapping = aes(x=company,y=totalJobs)) + 
   geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45, hjust = 0))
-## Top 20 places ##
+  theme(axis.text.x=element_text(angle = -45,hjust = 0))
+## Top 10 places ##
 ggplot(data = head(df_places[order(df_places$totalJobs,
-                                   decreasing = TRUE),],20),
+                                   decreasing = TRUE),],10),
        mapping = aes(x=location,y=totalJobs)) + 
   geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45, hjust = 0))
+  theme(axis.text.x=element_text(angle = -45,hjust = 0))
 
-## Top 20 companies jobs by date ##
+## Top 10 companies jobs by date ##
 ggplot(data = head(df_companies_date[order(df_companies_date$totalJobs,
-                                           decreasing = TRUE),],20),
+                                           decreasing = TRUE),],10),
        mapping = aes(x=date,y=company)) + 
   geom_tile(aes(fill = totalJobs)) +
   scale_fill_gradient(low = "white",high = "steelblue")
