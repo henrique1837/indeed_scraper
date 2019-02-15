@@ -27,68 +27,83 @@ from glob import glob
 #### Indeed scrap ####
 
 ## Functions ##
-def indeed_scraper(query = "ethereum"):
-    df_final = pd.DataFrame()
-    url_base = "https://www.indeed.com"
-    start = 0
-    ## Unfortunately 180 is the maximum ##
-    while(start < 180):
-        url = "https://www.indeed.com/jobs?q="+query+"&sort=date&start="+str(start)
-        companies = list()
-        locations = list()
-        dates = list()
-        short_descriptions = list()
-        jobs_title = list()
-        sallaries = list()
-        links = list()
-        page = requests.get(url)
-        soup = BeautifulSoup(page.text, 'html.parser')
-        ## Get the td that have the jobs ##
-        td_results = soup.find_all(attrs={"id":"resultsCol"})
-        div_jobs = td_results[0].find_all(attrs={"class":"jobsearch-SerpJobCard"})
-        ## For each job insert attributes in lists and then make a dataframe 
-        for i in range(len(div_jobs)):
-            ## If has no date we will not get this job now ##
-            date = div_jobs[i].find(attrs={"class":"date"})
-            if(date != None):
-                dates.append(date.text)
-                company = div_jobs[i].find(attrs={"class":"company"})
-                companies.append(company.text)
-                location = div_jobs[i].find(attrs={"class":"location"})
-                locations.append(location.text)
-                short_descript = div_jobs[i].find(attrs={"class":"summary"})
-                short_descriptions.append(short_descript.text)
-                title = div_jobs[i].find(attrs={"class":"jobtitle"})
-                jobs_title.append(title.text)
-                ## Some jobtitle class are not tag a 
-                if(title.find("a") != None):
-                    link = title.find("a")
-                    link = link["href"]
-                else:
-                    link = title["href"]
-                ## Verify link ##
-                if(url_base not in link):
-                    links.append(url_base+link)
-                else:
-                    links.append(title["href"])
-                sallary = div_jobs[i].find(attrs={"class":"salary"})
-                ## There are jobs that do not have sallary in this section ##
-                if(sallary != None):
-                    sallaries.append(sallary.text)
-                else:
-                    sallaries.append("")
-        ## Prepare dataframe ##
-        df_struct = {"link":links,
-                     "date":dates,
-                     "title":jobs_title,
-                     "company":companies,
-                     "location":locations,
-                     "summary":short_descriptions,
-                     "sallary":sallaries}
-        df = pd.DataFrame(df_struct)
-        df_final = df_final.append(df)
-        print("Page "+str(int(start/10)+1)+" scraped")
-        start = start + 10
+def indeed_scraper(query = "ethereum",
+                   urls_base = ["https://www.indeed.com",
+                                 "https://www.indeed.com.br",
+                                 "https://www.indeed.com.mx",
+                                 "https://www.indeed.ca"],
+                   countries = ["USA","Brasil","Mexico","Canada"]):
+    df_final = pd.DataFrame() 
+    for j in range(len(urls_base)):
+        #condition = True
+        url_base = urls_base[j]
+        print("Getting data from "+url_base)
+        start = 0
+        ## Unfortunately 180 is the maximum ##
+        while(start < 180):
+            url = url_base+"/jobs?q="+query+"&sort=date&start="+str(start)
+            companies = list()
+            locations = list()
+            dates = list()
+            short_descriptions = list()
+            jobs_title = list()
+            sallaries = list()
+            links = list()
+            country = list()
+            page = requests.get(url)
+            soup = BeautifulSoup(page.text, 'html.parser')
+            ## Get the td that have the jobs ##
+            td_results = soup.find_all(attrs={"id":"resultsCol"})
+            div_jobs = td_results[0].find_all(attrs={"class":"jobsearch-SerpJobCard"})
+            ## For each job insert attributes in lists and then make a dataframe 
+            for i in range(len(div_jobs)):
+                ## If has no date we will not get this job now ##
+                date = div_jobs[i].find(attrs={"class":"date"})
+                if(date != None):
+                    dates.append(date.text)
+                    company = div_jobs[i].find(attrs={"class":"company"})
+                    companies.append(company.text)
+                    location = div_jobs[i].find(attrs={"class":"location"})
+                    locations.append(location.text)
+                    short_descript = div_jobs[i].find(attrs={"class":"summary"})
+                    short_descriptions.append(short_descript.text)
+                    title = div_jobs[i].find(attrs={"class":"jobtitle"})
+                    jobs_title.append(title.text)
+                    country.append(countries[j])
+                    ## Some jobtitle class are not tag a 
+                    if(title.find("a") != None):
+                        link = title.find("a")
+                        link = link["href"]
+                    else:
+                        link = title["href"]
+                    ## Verify link ##
+                    if(url_base not in link):
+                        links.append(url_base+link)
+                    else:
+                        links.append(title["href"])
+                    
+                    sallary = div_jobs[i].find(attrs={"class":"salary"})
+                    ## There are jobs that do not have sallary in this section ##
+                    if(sallary != None):
+                        sallaries.append(sallary.text)
+                    else:
+                        sallaries.append("")
+            ## Prepare dataframe ##
+            
+            df_struct = {"link":links,
+                         "date":dates,
+                         "title":jobs_title,
+                         "company":companies,
+                         "location":locations,
+                         "country":country,
+                         "summary":short_descriptions,
+                         "sallary":sallaries}
+            df = pd.DataFrame(df_struct)
+            
+            df_final = df_final.append(df)
+            print("Page "+str(int(start/10)+1)+" scraped")
+            start = start + 10
+    df_final = df_final.drop_duplicates()
     df_final = df_final.reset_index()
     return(df_final)
     

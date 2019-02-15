@@ -1,40 +1,32 @@
 ---
 title: "Indeed Data"
 author: "Henrique Almeida"
-date: "6 de fevereiro de 2019"
+date: "15 de fevereiro de 2019"
 output: word_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE,fig.align="center")
 
 ```
 
 ## About Document
 
-  An example of treating and ploting data from indeed
+  An example of treating and ploting data from indeed after scrapping (code in [https://github.com/henrique1837/indeed_scraper](https://github.com/henrique1837/indeed_scraper))
 
 ## Treating data ##
 
-```{r treat,echo=TRUE}
+```{r treat,echo=TRUE,message=FALSE}
 library(plyr)
 library(stringr)
 library(ggplot2)
-
 #### Read data ####
 files <- Sys.glob("./results/*")
-df_t <- read.csv(file = files[1])
-file_date <- as.Date(str_extract(string = files[1],
-                                 pattern = "[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}"))
-df_t <- df_t[which(!(str_detect(string = df_t$date,
-                              pattern = "30+"))),]
-file_date <- as.Date(str_extract(string = files[1],
-                                 pattern = "[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}"))
-df_t$date <- file_date - as.numeric(str_extract(string = df_t$date,
-                                                pattern = "[[:digit:]]+"))
-
-for(i in 2:length(files)){
-  df <- read.csv(file = files[i])
+files <- files[which(str_detect(string = files,pattern = "indeed")==TRUE)]
+df_t <- data.frame()
+for(i in 1:length(files)){
+  df <- read.csv(file = files[i],
+                 stringsAsFactors = FALSE)
   df <- df[which(!(str_detect(string = df$date,
                               pattern = "30+"))),]
   file_date <- as.Date(str_extract(string = files[i],
@@ -42,10 +34,17 @@ for(i in 2:length(files)){
   df$date <- file_date - as.numeric(str_extract(string = df$date,
                                                 pattern = "[[:digit:]]+"))
   df$date[which(is.na(df$date))] <- file_date
+  if(length(df$country) == 0){
+    df$country <- "USA"
+  }
   df_t <- rbind(df_t,df[which(!(df$link %in% df_t$link)),])
   #message("Files ",i," - ",length(files))
 }
-
+df_t$city <- gsub(pattern = "[[:punct:]].*",
+                       replacement = "",
+                       x = df_t$location)
+df_t$state <- str_extract(string = df_t$location,
+                          pattern = "[A-Z]{2}")
 df_t$count <- 1
 df_agreggated <- ddply(.data = df_t,
                        .variables = .(date),
@@ -63,9 +62,10 @@ df_companies <- ddply(.data = df_t,
                       totalJobs=sum(count))
 
 df_places <- ddply(.data = df_t,
-                   .variables = .(location),
+                   .variables = .(city,state,country),
                    .fun = summarize,
                    totalJobs=sum(count))
+
 ```
 
 ## Data Information
@@ -94,6 +94,7 @@ nrow(df_companies)
 nrow(df_places)
 ```
 
+
 ## Graphics
 
 ### Total Ethereum Jobs posted per date
@@ -101,10 +102,10 @@ nrow(df_places)
 ```{r plot1, echo=FALSE}
 ## Total jobs posted by day ##
 ggplot(data = df_agreggated,
-       mapping = aes(x=date,y=totalJobs)) + 
-geom_point() + 
-geom_smooth(formula = y~x,
-            method = "loess")
+                mapping = aes(x=date,y=totalJobs)) + 
+        geom_point() + 
+        geom_smooth(formula = y~x,
+                    method = "loess")
 ```
 
 ### Total Ethereum Jobs posted by top 10 company
@@ -113,9 +114,9 @@ geom_smooth(formula = y~x,
 ## Top 10 companies ##
 ggplot(data = head(df_companies[order(df_companies$totalJobs,
                                       decreasing = TRUE),],10),
-       mapping = aes(x=company,y=totalJobs)) + 
-  geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45,hjust = 0))
+                 mapping = aes(x=company,y=totalJobs)) + 
+            geom_bar(col="black",fill="steelblue",stat = "identity") +
+            theme(axis.text.x=element_text(angle = -45,hjust = 0))
 ```
 
 ## Total Ethereum Jobs posted in top 10 localizations
@@ -124,10 +125,11 @@ ggplot(data = head(df_companies[order(df_companies$totalJobs,
 ## Top 10 places ##
 ggplot(data = head(df_places[order(df_places$totalJobs,
                                    decreasing = TRUE),],10),
-       mapping = aes(x=location,y=totalJobs)) + 
-  geom_bar(col="black",fill="steelblue",stat = "identity") +
-  theme(axis.text.x=element_text(angle = -45,hjust = 0))
+                 mapping = aes(x=city,y=totalJobs)) + 
+            geom_bar(col="black",fill="steelblue",stat = "identity") +
+            theme(axis.text.x=element_text(angle = -45,hjust = 0))
 ```
+
 
 ## Total Ethereum Jobs posted by top 10 companies per date
 
@@ -135,9 +137,9 @@ ggplot(data = head(df_places[order(df_places$totalJobs,
 ## Top 10 companies jobs by date ##
 ggplot(data = head(df_companies_date[order(df_companies_date$totalJobs,
                                            decreasing = TRUE),],10),
-       mapping = aes(x=date,y=company)) + 
-  geom_tile(aes(fill = totalJobs)) +
-  scale_fill_gradient(low = "lightblue",high = "steelblue")
+                 mapping = aes(x=date,y=company)) + 
+            geom_tile(aes(fill = totalJobs)) +
+            scale_fill_gradient(low = "lightblue",high = "steelblue")
 ```
 
 
